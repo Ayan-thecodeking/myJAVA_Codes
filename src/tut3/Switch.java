@@ -29,7 +29,7 @@ public class Switch{
                     default -> System.out.println("no departments");
                 }
             }
-            default -> System.out.println("again invalid");
+            default -> System.out.println(" new invalid");
         }
 
 
