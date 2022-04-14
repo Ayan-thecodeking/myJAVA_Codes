@@ -8,7 +8,7 @@ public class RetProduct {
         System.out.println("enter two numbers");
         int a = input.nextInt();
         int b = input.nextInt();
-       int ans = product(a,b);
+        int ans = product(a,b);
         System.out.printf("product is : " + ans);
 
     }
