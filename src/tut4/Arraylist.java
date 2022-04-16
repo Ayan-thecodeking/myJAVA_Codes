@@ -13,7 +13,7 @@ public class Arraylist {
         for (int i = 0; i < 10; i++) {
             list.add(input.nextInt());
         }
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 5; i++) {
             System.out.println(list.get(i));
         }
         System.out.println(list);
