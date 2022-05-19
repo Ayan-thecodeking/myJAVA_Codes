@@ -3,6 +3,9 @@ package BinarySearchQues;
 import java.util.ArrayList;
 import java.util.Arrays;
 
+
+//ceiling of a array and floor of an array
+
 public class CeilingNum {
     public static void main(String[] args) {
         int arr[] = {1, 2, 7, 10, 11, 12, 19};
@@ -34,6 +37,7 @@ public class CeilingNum {
                 start = mid + 1;
             }
         }
-        return end;
+        return start;
+         // just return end for floor
     }
 }
